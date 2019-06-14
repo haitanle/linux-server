@@ -81,7 +81,7 @@ sudo ufw allow 123/udp
 * Enable our Firewall (*only once we have configured our firewall correctly*) - `sudo ufw enable`
 * Check out status to see implementation of firewall using - `sudo ufw status`
 
-# Install Software and Configure our vm to serve our python application
+# Install Software and Configure vm to serve python application
 
 ### Installing Apache
 > Apache is our web server, its job is to process HTTP requests.
@@ -221,7 +221,7 @@ app_id = json.loads(open('/var/www/html/CatalogApp/catalog/client_secrets.json',
 
 ============================================
 
-# Tips / Notes
+### Notes
 ### User - ubuntu Password
 > Default ubuntu user is created upon instance.
  * To change password - `sudo passwrd <username>`
