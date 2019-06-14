@@ -1,11 +1,11 @@
 # Linux Configuration and Deployment
 
 ## Access
-IP Address: 18.220.19.249 port 2200
-ssh grader@18.220.19.249 -p 2200
-(ssh private key is included in submission's comment)
+  * IP Address: 18.220.19.249 port 2200
+  * ssh grader@18.220.19.249 -p 2200
+  * (ssh private key is included in submission's comment)
 
-URL: http://18.220.19.249/main
+  * URL: http://18.220.19.249/main
 
 ## Start Configuration
 
@@ -240,3 +240,9 @@ app_id = json.loads(open('/var/www/html/CatalogApp/catalog/client_secrets.json',
 ## OAuth2 Google Login
 
 Google OAuth2 login is not working due to xip.io redirect blocked by Google. 
+
+
+## Resources used
+* http://www.postgresqltutorial.com/postgresql-list-users/
+* http://flask.pocoo.org/docs/1.0/deploying/mod_wsgi/#creating-a-wsgi-file
+* https://www.2ndquadrant.com/en/blog/how-to-safely-change-the-postgres-user-password-via-psql/
